@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kafka-producer
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+    consumer:
+      group-id: group1
+      auto-offset-reset: earliest
